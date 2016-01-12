@@ -1,0 +1,43 @@
+// this is a mixin and it's used to create cross-browser functionality
+@import "bourbon/bourbon";
+
+// @mixin black($opacity) {
+// 	-webkit-opacity: $opacity;
+// 	-moz-opacity: $opacity;
+// 	-o-opacity: $opacity;
+// 	-ms-opacity: $opacity;
+// 	opacity: $opacity;
+// }
+
+// h1{@include black(.1);}
+
+// @mixin white($opacity){
+// 	-webkit-opacity: $opacity;
+// 	-moz-opacity: $opacity;
+// 	-os-opacity: $opacity;
+// 	-ms-opacity: $opacity;
+// 	opacity:$opacity;
+// }
+
+// p{@include white(.3);}
+
+// this is how you write a var in Sass
+$default-font: serif;
+
+// this is your css for code
+
+body{text-align:center;
+	// shade addes black
+	// background: shade(yellow, 60%);
+  // background-color:#a83953;
+	// tint addes white
+	background: tint(pink, 60%);
+
+  	nav{ word-spacing: 30px;
+    	a{font:$default-font;
+      	  font-size:20px;
+      	}
+  	}
+}
+
+

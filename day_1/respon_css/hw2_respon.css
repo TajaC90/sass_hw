@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+	img {width:50%;
+		border-radius: 25px;
+		background-color: rgb(118, 75, 40);
+		}
+	}
+
+@media (max-width: 600px) and (min-width: 1199px){
+	img{width: 40%;
+	}
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline
+}
+
+#img{
+	float:left;
+	width:30%;
+	text-align: center;
+	margin-top: 50px;
+	padding-left: 15px;
+}
+
+body{
+	background-color: rgb(48, 67, 81);
+}

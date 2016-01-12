@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background: #ffe6ea; 
+}
+ body nav {
+  word-spacing: 30px; 
+}
+body nav a {
+  font: serif;
+  font-size: 20px; 
+}
+
+/*# sourceMappingURL=main.css.map */
